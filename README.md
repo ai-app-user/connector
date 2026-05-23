@@ -18,7 +18,7 @@ buffers and lengths, moves bytes over sockets, and emits buffers.
 Current consumers include Connector through the shared workspace build:
 
 ```text
-piper/src -> connector/src -> filer/src -> hypersync/src
+piper/src -> utils/src -> connector/src -> filer/src -> hypersync/src
 ```
 
 The C++ namespace remains `hypersync` during this extraction phase so the move

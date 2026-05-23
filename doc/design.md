@@ -41,5 +41,5 @@ Workspace builds include Connector after Piper and before filesystem/product
 layers:
 
 ```text
-piper/src -> connector/src -> filer/src -> hypersync/src
+piper/src -> utils/src -> connector/src -> filer/src -> hypersync/src
 ```
